@@ -1,0 +1,8 @@
+
+Ärende/Ticket?
+
+
+Skapas när avvikelsen inträffar
+Uppdateras när nya uppgifter kommer in 
+Stängs när ärendet är avslutat 
+Lätt att följa upp då man kan lista öppna, stängda ärenden

@@ -1,0 +1,13 @@
+
+Versionshantering av dokument
+
+Commit 
+uppdatering av dokumentet på servern!
+gamla dokumentet skrivs INTE över, servern sparar alla versioner!
+Update 
+uppdatering av dokumentet på KAP-PCn!
+Dokumentet updateras med den version som finns på servern
+Checkout 
+Kopierar ett dokument eller flera kataloger från servern
+Görs första gången
+

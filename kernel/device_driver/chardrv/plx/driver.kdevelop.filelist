@@ -1,0 +1,12 @@
+# KDevelop Custom Project File List
+Makefile
+plx_driver.c
+plx_driver.h
+plx_driverdefs.h
+plx_drv.h
+plx_fops.c
+plx_interrupt.c
+plx_interrupt.h
+plx_ioctl.c
+plx_proc.c
+plx_reg8311.h

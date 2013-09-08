@@ -1,0 +1,232 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Ö?
+%%\xd6
+%% Ä?
+%%\xc4
+%% Å?
+%%\xc5
+
+%%
+%% This default.mgp is "TrueType fonts" oriented.
+%% First, you should create "~/.mgprc" whose contents are:
+%%	tfdir "/path/to/truetype/fonts"
+%%
+%% To visualize English, install "times.ttf", "arial.ttf", and "cour.ttf"
+%% into the "tfdir" directory above:
+%%	http://microsoft.com/typography/fontpack/default.htm
+%%
+%% To visualize Japanese, install "MSMINCHO.ttf" and 
+%% "watanabenabe-mincho.ttf" into the "tfdir" directory above:
+%%	http://www.mew.org/mgp/xtt-fonts_0.19981020-3.tar.gz
+%%
+%deffont "standard" xfont "helvetica-medium-r", tfont "standard.ttf", tmfont "hoso6.ttf"
+%deffont "thick" xfont "helvetica-bold-r", tfont "thick.ttf", tmfont "hoso6.ttf"
+%deffont "typewriter" xfont "courier-medium-r", tfont "typewriter.ttf", tmfont "hoso6.ttf"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Default settings per each line numbers.
+%%
+%default 1 area 90 90, leftfill, size 2, fore "gray20", back "white", font "standard", hgap 0
+%default 2 size 7, vgap 10, prefix " ", ccolor "black"
+%default 3 size 2, bar "gray70", vgap 10
+%default 4 size 5, fore "gray20", vgap 30, prefix " ", font "standard"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Default settings that are applied to TAB-indented lines.
+%%
+%tab 1 size 5, vgap 40, prefix "  ", icon box "green" 50
+%tab 2 size 4, vgap 40, prefix "      ", icon arc "yellow" 50
+%tab 3 size 3, vgap 40, prefix "            ", icon delta3 "white" 40
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%nodefault
+%%size 6.5, font "standard", back "white", ccolor "black"
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+
+
+
+%center, fore "black", font "standard", hgap 60, size 6.5
+TRAC
+%bar "gray" 6 15 70
+%font "standard", hgap 0
+%% Search for !!!
+%% Embedded solida logo here!!!
+%size 5, fore "black"
+%% ä
+Fredrik Sv\Xe4rd
+%center, size 4.5
+fredrik.svard@solida.se
+%size 3, fore "black", hgap 20
+%center, newimage -xscrzoom 7  "solida_web.gif"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+Hur kan KAP anv\xe4nda TRAC?
+
+
+%% We need tabs here!!!
+	Ett Verksamhetsledningssystem \xe5tkomligt f\xf6r alla
+	\xc4rendehanteringssystem
+	Elektronisk anslagstavla/anteckningsblock 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+Vad \xe4r ett Verksamhetsledningssystem?
+
+
+%% We need tabs here!!!
+	En upps\xe4ttning dokument som beskriver verksamheten
+	\xc4r certifierat enligt http://www.fr2000.se
+	Lagras centralt, dvs p\xe5 en server 
+	Dokumenten \xe5tkomliga via webl\xe4sare 
+	Uppdateras via utforskaren/windows explorer 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PAGE
+%%back "white"
+
+Utforskaren/Windows Explorer
+
+	TortoiseSVN 
+		till\xe4ggsprogram f\xf6r Utforskaren
+		M\xf6jligg\xf6r enkel versionshantering av dokument
+	Exempel 
+		Katalogstruktur f\xf6r ett verksamhetsledningsystem
+%%center, newimage -xscrzoom 45  "w_explorer.png"
+%center, newimage  "w_explorer.png"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PAGE
+%%back "white"
+
+Versionshantering av dokument
+
+	Commit 
+		uppdatering av dokumentet p\xe5 servern!
+		gamla dokumentet skrivs INTE \xf6ver, servern sparar alla versioner!
+	Update 
+		uppdatering av dokumentet p\xe5 KAP-PCn!
+		Dokumentet updateras med den version som finns p\xe5 servern
+	Checkout 
+		Kopierar ett dokument eller flera kataloger fr\xe5n servern
+		G\xf6rs f\xf6rsta g\xe5ngen
+%%center, newimage -xscrzoom 15 -zoomonclk 87 "commit_update.png"
+%%center, newimage -xscrzoom 50  "commit_update.png"
+%center, newimage "commit_update.png"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PAGE
+%%back "white"
+
+Webl\xe4sare
+
+	Exempel, samma katalogstruktur i en browser
+%%center, newimage -xscrzoom 80  "browser.png"
+%center, newimage "browser.png"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+\xc4rendehanteringssystem?
+
+
+%% We need tabs here!!!
+	Registrera avvikelser fr\xe5n de normala rutinerna
+	Exempelvis f\xf6rsening av leverans 
+	N\xe5s av alla p\xe5 KAP via webl\xe4sare 
+	\xc4rende, det samma som Ticket i TRAC
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+\xc4rende/Ticket?
+
+
+%% We need tabs here!!!
+	Skapas n\xe4r avvikelsen intr\xe4ffar
+	Uppdateras n\xe4r nya uppgifter kommer in 
+	St\xe4ngs n\xe4r \xe4rendet \xe4r avslutat 
+	L\xe4tt att f\xf6lja upp, lista \xf6ppna, st\xe4ngda \xe4renden
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PAGE
+%%back "white"
+
+\xc4rende/Ticket?
+
+%%center, newimage -xscrzoom 70  "ticket.png"
+%center, newimage   "ticket.png"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PAGE
+%%back "white"
+
+Lista \xe4renden/tickets
+
+	Filtrera beroende p\xe5 status/typ
+
+%%center, newimage -xscrzoom 55  "list_tickets.png"
+%center, newimage "list_tickets.png"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+Elektronisk anslagstavla/anteckningsblock?
+
+
+%% We need tabs here!!!
+	G\xe5r under ben\xe4mningen 'wiki' i IT-sammanhang :-)
+	J\xe4mf\xf6r med wikipedia p\xe5 internet 
+	F\xf6rslag p\xe5 vad kan vara upplagt, telefon och adresser till leverant\xf6rer
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PAGE
+%%back "white"
+
+Wiki
+
+	Exempel 
+		F\xf6rslag p\xe5 information som kan h\xe4rb\xe4rgera p\xe5 wikin
+%%center, newimage -xscrzoom 50  "wiki.png"
+%center, newimage   "wiki.png"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%page
+%nodefault
+%%size 6.5, font "standard", back "white", ccolor "black"
+%bgrad 25 25 256 45 1 "gray" "gray" "white" "white" "white" "white" "gray" "gray"
+
+
+
+
+
+
+
+
+
+
+%center, fore "Black", font "standard", hgap 60, size 6.5
+SLUT !
+%bar "gray" 6 15 70
+%font "standard", hgap 0
+
+Fr\xe5gor?
+
+Kuriosa, NASA anv\xe4nder ocks\xe5 TRAC :-)
+%size 5, fore "black"
+%% ä
+Fredrik Sv\Xe4rd
+%size 4.5
+fredrik.svard@solida.se
+%center, newimage -xscrzoom 7  "solida_web.gif"
+
+%size 3, fore "black", hgap 20
+

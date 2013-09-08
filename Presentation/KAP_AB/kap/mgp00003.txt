@@ -1,0 +1,10 @@
+
+Vad är ett Verksamhetsledningssystem?
+
+
+En uppsättning dokument som beskriver verksamheten
+Är certifierat enligt http://www.fr2000.se
+Lagras centralt, dvs på en server 
+Dokumenten åtkomliga via webläsare 
+Uppdateras via utforskaren/windows explorer 
+

@@ -1,0 +1,10 @@
+
+Ärendehanteringssystem?
+
+
+Registrera avvikelser från de normala rutinerna
+Exempelvis försening av leverans 
+Nås av alla på KAP via webläsare 
+Ärende, det samma som Ticket i TRAC
+
+

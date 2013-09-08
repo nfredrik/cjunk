@@ -1,0 +1,12 @@
+
+Skriv en device driver som kan hantera
+
+- registrering
+
+- läsa in argument vid laddning
+
+- har ett /proc/ngt
+
+- ioctl-hantering
+
+- mm ... det som återstår i boken ...

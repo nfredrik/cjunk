@@ -1,0 +1,9 @@
+
+Utforskaren/Windows Explorer
+
+TortoiseSVN 
+tilläggsprogram för Utforskaren
+Möjliggör enkel versionshantering av dokument
+Exempel 
+Katalogstruktur för ett verksamhetsledningsystem
+

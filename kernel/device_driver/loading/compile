@@ -1,0 +1,1 @@
+gcc test-scull.c -o test_scull

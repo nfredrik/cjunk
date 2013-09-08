@@ -1,0 +1,17 @@
+/*Include text files in C source
+This includes the contents of myfile.txt into the char array text.
+
+Note: This only works if ALL lines in the file are enclosed in "s.
+
+Wrong myfile.txt:
+Hello world
+Goodbye world
+(
+
+
+Right myfile.txt:
+*/
+"Hello world"
+"Goodbyle world"
+""
+

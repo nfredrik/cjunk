@@ -1,0 +1,15 @@
+<!ELEMENT kpi-results (kpi*)>
+<!ELEMENT kpi (kpi-descr, r* )>
+<!ELEMENT kpi-descr (sn, ss, content-tag,module, time,source, destination )>
+<!ELEMENT sn (#PCDATA)>
+<!ELEMENT ss (#PCDATA)>
+<!ELEMENT content-tag (#PCDATA)>
+<!ELEMENT  module (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT destination (#PCDATA)>
+<!ATTLIST kpi received CDATA #REQUIRED>
+<!ATTLIST kpi connector CDATA #REQUIRED>
+<!ELEMENT r (#PCDATA)>
+<!ATTLIST r n CDATA #REQUIRED>
+

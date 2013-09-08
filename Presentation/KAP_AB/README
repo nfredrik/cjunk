@@ -1,0 +1,8 @@
+
+Generate html files from a MagicPoint Presentation!
+
+$ mkdir olle
+$ mgp -g 800x640 -D olle first.mgp
+
+
+Check relevant screen resolution!

@@ -1,0 +1,26 @@
+bash -x example_script.sh
+
+
+export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: '
+
+
+_DEBUG=true ./example_script.sh
+
+
+exempel:  radnummer och function med!!
+
+ bash -x example_script.sh
++example_script.sh:10:: _log 'Copying files...'
++example_script.sh:4:_log: '[' '' == true ']'
++example_script.sh:11:: echo 'Hello fredde,'
+Hello fredde,
+++example_script.sh:12:: date +%Y-%m-%d
++example_script.sh:12:: echo 'Today is 2009-08-26'
+Today is 2009-08-26
++example_script.sh:13:: _log 'Done with Copying...'
++example_script.sh:4:_log: '[' '' == true ']'
+
+
+
+
+

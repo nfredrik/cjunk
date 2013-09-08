@@ -1,0 +1,11 @@
+We will need a watchdog to supervise the application. How the final solution will look like
+is not decided, but this little application shows how to launch it and as for some
+info about the watchdog. We need to solve how to create the device file for the
+watchdog too ...
+
+
+[root@iguanodon test_watchdog]# ./a.out 
+id: W83627HF WDT, fw_version:1, options:8180
+ 
+
+
